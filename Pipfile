@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.doubanio.com/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+openpyxl = "*"
+pandas = "*"
+pymysql = "*"
+requests = "*"
+flask = "*"
+gevent = "*"
+selenium = "*"
+flask-wtf = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
